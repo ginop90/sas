@@ -379,22 +379,32 @@
 
         @media (max-width: 768px) {
             .nav {
+                padding: 0; /* Elimina padding extra */
+            }
+        
+            .nav-logo {
                 position: fixed;
-                top: 0;
-                left: 0;
-                width: 100%;
-                z-index: 1000;
+                top: 10px;
+                left: 20px;
+                font-size: 1.5rem;
+                font-weight: bold;
+                z-index: 1000; /* Asegura que esté por encima de otros elementos */
+                background-color: #333;
+                color: white;
+                padding: 5px 10px;
+                border-radius: 5px;
             }
         
             .nav-links {
                 display: flex;
-                justify-content: center;
+                flex-direction: column; /* Enlaces en columna */
                 gap: 10px;
-                padding: 10px 0;
+                margin-top: 70px; /* Espacio para no superponerse al logo */
+                padding: 10px 20px;
             }
         
             .nav-links a {
-                font-size: 0.9rem;
+                font-size: 1rem;
             }
 
             .hero h1 {

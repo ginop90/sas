@@ -55,14 +55,16 @@
         .nav {
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            padding: 20px 50px;
+            background-color: rgba(0,0,0,0.5);
+            /*align-items: center;
             padding: 1rem 5%;
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             background: rgba(45, 55, 72, 0.95);
-            z-index: 1000;
+            z-index: 1000;*/
         }
 
         .nav-logo {
@@ -72,7 +74,8 @@
 
         .nav-links {
             display: flex;
-            gap: 2rem;
+            /*gap: 2rem;*/
+            gap: 30px;
         }
 
         .nav-links a {

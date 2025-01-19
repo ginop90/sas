@@ -80,6 +80,7 @@
             display: flex;
             /*gap: 2rem;*/
             gap: 30px;
+            align-items: center;
         }
 
         .nav-links a {
@@ -436,8 +437,6 @@
                 align-items: center;
                 gap: 15px;
                 margin-top: 0;
-                top: 0;
-                left: 0;
                 width: 100%; 
                 /*background-color: rgba(51, 51, 51, 0.95);*/
             }

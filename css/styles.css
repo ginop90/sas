@@ -379,13 +379,19 @@
 
         @media (max-width: 768px) {
             .nav {
-                padding: 0;
+                /*padding: 0;
                 width: 100%;
                 position: fixed;
                 top: 0;
                 left: 0;
                 background-color: rgba(51, 51, 51, 0.95);
-                z-index: 1000;
+                z-index: 1000;*/
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+                padding: 20px;
+                width: 100%; 
+                padding-top: 80px;
             }
         
             .nav-logo {

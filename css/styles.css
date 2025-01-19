@@ -418,11 +418,11 @@
         
             .nav-links {
                 display: flex;
-                flex-direction: row; /* Enlaces en horizontal */
-                justify-content: center; /* Centrado horizontal */
+                /*flex-direction: row; /* Enlaces en horizontal */
+                /*justify-content: center; /* Centrado horizontal */
                 align-items: center;
-                gap: 20px;
-                padding: 10px 0;
+                gap: 30px;
+                /*padding: 10px 0;*/
                 width: 100%;
                 background-color: rgba(51, 51, 51, 0.95);
             }
